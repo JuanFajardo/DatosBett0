@@ -1,0 +1,298 @@
+<head/><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: sigla_padre</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2379</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: especificar</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2380</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: nit</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2381</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: pjuridica</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2382</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: fono</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2383</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: cel</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2384</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: fax</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2385</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: alta</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2386</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: email</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2387</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: fech_c</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2388</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: imgdata1</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2399</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: imgdata2</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2404</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: codigo</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2418</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: nombre</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2444</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: instt_nombre</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2447</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: carac</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2450</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: tipo</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2452</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: expedido</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2457</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: horario</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2465</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: departamento</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2479</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: provincia</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2480</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: municipio</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2481</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: area</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2484</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: localidad</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2485</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: zona</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2486</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: calle</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2489</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: representante</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2504</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: rcargo</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2505</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: desc</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2544</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: objetivo</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2547</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: representante</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2568</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: rcargo</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2568</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: nombre</p>
+<p>Filename: controllers/establecimientoscontr.php</p>
+<p>Line Number: 2593</p>
+
+</div><strong>TCPDF ERROR: </strong>Some data has already been output, can't send PDF file
