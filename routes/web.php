@@ -11,3 +11,7 @@ Route::get('/Egp/{id}', 'EgpController@save');
 Route::get('/Cies', 'CiesController@index');
 Route::get('/Cies/Ver/{id}', 'CiesController@show');
 Route::get('/Cies/{id}', 'CiesController@save');
+
+Route::get('/Celular', 'CelularController@index');
+Route::get('/Celular/Ver/{id}', 'CelularController@show');
+Route::get('/Celular/{id}', 'CelularController@save');

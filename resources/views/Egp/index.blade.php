@@ -140,15 +140,16 @@
           <td> <a href="#modalModifiar"  data-toggle="modal" data-target=""  class="actualizar"> <i class="fa fa-eye"></i> Ver </a> </td>
         </tr>
       @endforeach
-  </tbody>
+    </tbody>
 </table>
+{{$datos->links()}}
 @endsection
 
 
 @section('js')
 <script type="text/javascript">
     $(document).ready(function(){
-        $('#tabla').DataTable({
+        $('#tablaAAA').DataTable({
             "order": [[ 3, 'asc']],
             "language": {
                 "bDeferRender": true,

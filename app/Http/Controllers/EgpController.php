@@ -7,7 +7,7 @@ use App\EgpData;
 class EgpController extends Controller
 {
     public function index(){
-      $datos = EgpData::all();
+      $datos = EgpData::paginate(15);
       //return $datos;
       return view('Egp.index', compact('datos'));
     }

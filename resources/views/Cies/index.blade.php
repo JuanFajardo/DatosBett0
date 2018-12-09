@@ -147,13 +147,14 @@
       @endforeach
   </tbody>
 </table>
+{{$datos->links()}}
 @endsection
 
 
 @section('js')
 <script type="text/javascript">
     $(document).ready(function(){
-        $('#tabla').DataTable({
+        $('#tablaaaa').DataTable({
             "order": [[ 3, 'asc']],
             "language": {
                 "bDeferRender": true,

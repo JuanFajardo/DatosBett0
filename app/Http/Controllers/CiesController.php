@@ -7,7 +7,7 @@ use App\CiesData;
 class CiesController extends Controller
 {
   public function index(){
-    $datos = CiesData::all();
+    $datos = CiesData::paginate(15);
     //return $datos;
     return view('Cies.index', compact('datos'));
   }
@@ -22,8 +22,8 @@ class CiesController extends Controller
       $dato = new CiesData;
       $dato->status           = $datos['status']."" == "1" ?  "Verdad" : "Falso"  ;
       $dato->message          = $datos['message'];
-      $dato->ci               = $carnet[0];
-      $dato->extendido        = $carnet[1];
+      $dato->ci               = isset($carnet[0]) ? $carnet[0] : $datos['data']['ci'];
+      $dato->extendido        = isset($carnet[1]) ? $carnet[1] : "NN";
       $dato->expediente       = $datos['data']['expediente'];
       $dato->nombres          = $datos['data']['nombres'];
       $dato->apellido_paterno = $datos['data']['apellido_paterno'];

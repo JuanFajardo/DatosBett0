@@ -5,7 +5,7 @@ import base64
 
 url = "https://www.cies.org.bo/llaves/test8.php"
 url2 = "http://127.0.0.1/datosBett0/public/index.php/Cies"
-for i in range(6148358, 6999999):
+for i in range(5119414, 5999999):
 	try:
 		post   =  urllib.urlencode({'u': str(i)})
 		pagina =  urllib.urlopen(url, post).read()
