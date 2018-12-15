@@ -6,7 +6,7 @@ import base64
 
 url = "http://181.115.181.139/sisacademico/oferta/obt_postulaciones_ci"
 url2 = "http://127.0.0.1/datosBett0/public/index.php/Egp"
-for i in range(8566614, 8999999):
+for i in range(9414910, 9999999):
 	try:
 		post   =  urllib.urlencode({'ci': str(i)})
 		pagina =  urllib.urlopen(url, post).read()

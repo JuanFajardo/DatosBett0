@@ -15,3 +15,6 @@ Route::get('/Cies/{id}', 'CiesController@save');
 Route::get('/Celular', 'CelularController@index');
 Route::get('/Celular/Ver/{id}', 'CelularController@show');
 Route::get('/Celular/{id}', 'CelularController@save');
+
+Route::get('/Renca', 'RencaController@index');
+Route::post('/Renca', 'RencaController@save');
