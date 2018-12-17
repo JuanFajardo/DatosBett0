@@ -1,6 +1,5 @@
 <?php
 
-
 Route::get('/', 'SistemaController@index')->name('sistema.inicio');
 Route::post('/Sistema', 'SistemaController@save')->name('sistema.guardar');
 
@@ -18,3 +17,7 @@ Route::get('/Celular/{id}', 'CelularController@save');
 
 Route::get('/Renca', 'RencaController@index');
 Route::post('/Renca', 'RencaController@save');
+
+Route::get('/Sib', 'SibController@index');
+Route::get('/Sib/{id}', 'SibController@show');
+Route::post('/Sib', 'SibController@save');
