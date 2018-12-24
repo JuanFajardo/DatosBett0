@@ -12,6 +12,7 @@ Route::get('/Cies/Ver/{id}', 'CiesController@show');
 Route::get('/Cies/{id}', 'CiesController@save');
 
 Route::get('/Celular', 'CelularController@index');
+Route::post('/Celular', 'CelularController@store');
 Route::get('/Celular/Ver/{id}', 'CelularController@show');
 Route::get('/Celular/{id}', 'CelularController@save');
 

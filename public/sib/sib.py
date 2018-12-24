@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: cp1252 -*-
+
 from bs4 import BeautifulSoup
 import urllib, urllib2
 import requests
@@ -6,9 +9,12 @@ from PIL import Image
 from io import BytesIO
 import datetime
 
+from urllib import urlopen
+from StringIO import StringIO
+
 url = "https://sib.org.bo/sin/index.php?option=com_sib&view=guia&layout=detalle&id="
-urlDato = "http://127.0.0.1/DatosBett0/public/index.php/Sib"
-for i in range (100052804, 100052829):
+urlDato = "http://127.0.0.1/datosBett0/public/index.php/Sib"
+for i in range (100047598, 100052906):
     try:
         array = ""
         link = url + str(i)
@@ -18,17 +24,19 @@ for i in range (100052804, 100052829):
         img = html.find_all('img')[0]
 
         imagen = str(img['src'])
-        imgLink= "https://sib.org.bo"
+        imgLink= "http://sib.org.bo"
         imgUrl = imgLink + imagen
-    
+
         if "&amp;" in imgUrl:
             imgUrl = url.replace("&amp;", "&")
-        
-        respuesta = requests.get( imgUrl )
-        hexx    = Image.open( BytesIO( respuesta.content ) )
-        aa      = hexx.tobytes()
-        bs64    = base64.b64encode( aa )
-    
+
+        data = urlopen( imgUrl ).read() 
+        file = StringIO(data)
+        img = Image.open(file)
+        img.save( str(i)+".png" )
+
+        bs64 = str(i)+".png"
+
         linea = html.find_all('div')[4]
         datos = str(linea.text.encode('utf-8')).split(':')
         if len(datos) == 13:
@@ -49,6 +57,7 @@ for i in range (100052804, 100052829):
             fecha_diplomado= str(datos[10].split('IMPORTANTE')[0]).strip()
         sib   = str(i)
         array = ({ "sib":sib, "nombre":nombre, "registro":registro, "especialidad":especialidad, "departamento":departamento, "fecha_registro":fecha_registro, "universidad":universidad, "fecha_diplomado":fecha_diplomado, "imgUrl":imgUrl, "imagen":bs64 })
+	#print array
         post = urllib.urlencode( array )
         msj  = urllib2.urlopen( urlDato, post ).read()
         print msj

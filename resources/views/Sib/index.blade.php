@@ -32,7 +32,6 @@
                       </div>
                     </div>
 
-
                     <div class="row">
                       <div class="col-sm">
                         <label> <b><i>departamento</i></b> </label>
@@ -80,7 +79,7 @@
 <table id="tabla" class="table" width="100%">
   <thead>
     <tr>
-        <th> Sib ID  </th> <th> Nombres  </th> <th> Especialidad </th> <th> Departamento </th> <th>Universidad</th> <th>Img</th> <th> Acciones </th>
+        <th> Sib ID  </th> <th> Nombres  </th> <th> Especialidad </th> <th> Departamento </th> <th>Universidad</th> <th> Acciones </th>
     </tr>
   </thead>
   <tbody>
@@ -92,8 +91,6 @@
           <td>{{$dato->especialidad}} </td>
           <td>{{$dato->departamento}} </td>
           <td>{{$dato->universidad}} </td>
-          <td> <img src="data:image/jpeg;base64,{{$dato->imagen}}" width="150" alt="">
-          </td>
           <td> <a href="#modalModifiar"  data-toggle="modal" data-target=""  class="actualizar"> <i class="fa fa-eye"></i> Ver </a> </td>
         </tr>
       @endforeach
@@ -145,7 +142,7 @@
                  $('#universidad').val(el.universidad);
                  $('#fecha_diplomado').val(el.fecha_diplomado);
                  $('#imgUrl').val(el.imgUrl);
-                 $('#imagen').attr("src", "data:image/png;base64, " + " " + el.imagen);
+                 $('#imagen').attr("src", "{{asset('/sib/')}}/"+el.imagen);
                });
            }
        });
